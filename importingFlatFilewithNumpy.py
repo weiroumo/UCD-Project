@@ -2,7 +2,7 @@
 import numpy as np
 
 # Assign filename to variable: file
-file = 'digits.csv'
+file = 'mnist_kaggle_some_rows.csv'
 
 # Load file as array: digits
 digits = np.loadtxt(file, delimiter=",")
@@ -15,6 +15,7 @@ im = digits[21, 1:]
 im_sq = np.reshape(im, (28, 28))
 
 # Plot reshaped data (matplotlib.pyplot already loaded as plt)
+import matplotlib.pyplot as plt
 plt.imshow(im_sq, cmap='Greys', interpolation='nearest')
 plt.show()
 
