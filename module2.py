@@ -111,6 +111,7 @@ print(len(var1))
 # Convert var2 to an integer: out2
 out2 = int(var2)
 
+
 # Mutiple arguments
 # Create lists first and second
 first = [11.25, 18.0, 20.0]
